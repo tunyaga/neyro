@@ -1,0 +1,59 @@
+<yml_catalog date="2024-08-04 16:33">
+<shop>
+<name>Кабинет нейропсихологии Алены Костыриной</name>
+<company>Кабинет нейропсихологии Алены Костыриной</company>
+<url>https://alenakopsy.ru</url>
+<email>ivlieva.alena@inbox.ru</email>
+<picture>https://static.tildacdn.com/tild6430-6235-4131-b361-303463613935/660-6606850_5555h.png</picture>
+<description>Детский нейропсихолог в Тамбове</description>
+<currencies>
+<currency id="RUR" rate="1"/>
+</currencies>
+<categories>
+<category id="1">Врач</category>
+</categories>
+<sets>
+<set id="set_1">
+<name>Нейроппсихолог</name>
+<url>https://alenakopsy.ru/#rec452261570</url>
+</set>
+</sets>
+<offers>
+<offer id="vrach26894" group_id="1">
+<categoryId>1</categoryId>
+<set-ids>set_1</set-ids>
+<name>Костырина Алена Вячеславовна </name>
+<url>https://alenakopsy.ru/#rec452261573</url>
+<price from="true">1200</price>
+<oldprice>1200</oldprice>
+<currencyId>RUB</currencyId>
+<sales_notes>Первичный прием</sales_notes>
+<description>В 2018 году закончила ТГУ им. Г.Р. Державина и получила специальность Клинический психолог со специализацией Нейропсихологическая реабилитация и коррекционно-развивающее обучение. Магистр с отличием в области Специальное (дефектологическое) образование. С октября 2016 года и по сегодняшний день работаю с детьми с ограниченными возможностями здоровья и детьми без каких-либо патологий развития.</description>
+<picture>https://resizer-1.napopravku.ru/crop?width=286&height=286&gravity=north&type=webp&file=iblock%2Fvgd%2Fyfj%2Fvgdyfjt7dnx2wdaymcrgskwnzv6y2ozj77zimntu.jpg&quality=100</picture>
+<param name="Фамилия">Костырина</param>
+<param name="Имя">Алена</param>
+<param name="Отчество">Вячеславовна</param>
+<param name="Годы опыта">8</param>
+<param name="Начало карьеры">2016-08-04</param>
+<param name="Город">Тамбов</param>
+<param name="Взрослый врач">false</param>
+<param name="Детский врач">true</param>
+<param name="Город клиники">Тамбов</param>
+<param name="Адрес клиники">Моршанское шоссе 14а </param>
+<param name="Название клиники">Кабинет нейропсихологии Алены Костыриной </param>
+<param name="Телефон для записи">+79027280445</param>
+<param name="Место работы - 1" unit="Организация">Кабинет нейропсихологии Алены Костыриной </param>
+<param name="Место работы - 1" unit="Дата">2023-н.в.</param>
+<param name="Место работы - 1" unit="Название">Частная практика</param>
+<param name="Образование - 1" unit="Организация">ТГУ им. Г.Р. Державина</param>
+<param name="Образование - 1" unit="Дата">2018</param>
+<param name="Образование - 1" unit="Название">Клиническая психология </param>
+<param name="Образование - 1" unit="Специальность">Нейропсихолог </param>
+<param name="Образование - 2" unit="Организация">ТГУ им. Г.Р. Державина</param>
+<param name="Образование - 2" unit="Дата">2022</param>
+<param name="Образование - 2" unit="Название">Дефектология</param>
+<param name="Образование - 2" unit="Специальность">Дефектолог</param>
+</offer>
+</offers>
+</shop>
+</yml_catalog>
