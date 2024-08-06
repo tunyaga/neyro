@@ -1,59 +1,66 @@
-<yml_catalog date="2024-07-17 12:10">
-<shop>
-<name>Алёна Костырина</name>
-<company>Кабинет нейропсихологии Алены Костыриной</company>
-<url>https://alenakopsy.ru/</url>
-<email>ivlieva.alena@inbox.ru</email>
-<picture>https://prodoctorov.ru/media/photo/tambov/doctorimage/1167220/2821576-1167220-kostyrina_square.jpg</picture>
-<description>Каталог специалистов</description>
-<currencies>
-<currency id="RUR" rate="1"/>
-</currencies>
-<categories>
-<category id="1">Врач</category>
-</categories>
-<sets>
-<set id="neyropsiholog">
-<name>Нейропсихолог</name>
-<url>https://alenakopsy.ru/#rec452261573</url>
-</set>
-<offer>
-<offers>
-<set id="neyropsiholog">
-<param name="Фамилия">Костырина</param>
-<param name="Имя">Алёна</param>
-<param name="Отчество">Вячеславовна</param>
-<param name="Годы опыта">8</param>
-<param name="Начало карьеры">2016-09-01</param>
-<!-- Дата начала карьеры, для подсчета стажа -->
-<param name="Город">г. Тамбов</param>
-<param name="Детский врач">true</param>
-<!-- Принимает детей, до 18 лет -->
-<param name="Средняя оценка">4.8</param>
-<!-- Средняя оценка ПОЛЬЗОВАТЕЛЕЙ. Профессиональный рейтинг сюда не входит -->
-<param name="Число отзывов">23</param>
-<!-- Общее число отзывов, доступных по URL данного врача -->
-<param name="Ссылка на профиль врача">https://alenakopsy.ru/#rec452261573</param>
-<param name="Город клиники">г. Тамбов</param>
-<param name="Адрес клиники">Моршанское шоссе, д.14 А</param>
-<param name="Название клиники">Кабинет нейропсихологии Алены Костыриной</param>
-<param name="Возможность записи">false</param>
-<!-- Возможность записаться на прием через сайт-поставщик фида -->
-<param name="Онлайн-расписание">false</param>
-<param name="Телефон для записи">7(902)728-04-45</param>
-<!-- Можно подменник аггрегатора -->
-<param name="Образование - 1" unit="Организация">ТГУ им. Г.Р. Державина</param>
-<param name="Образование - 1" unit="Дата">2018</param>
-<param name="Образование - 1" unit="Название">Базовое образование</param>
-<param name="Образование - 1" unit="Специальность">Клиническая психология</param>
-<param name="Образование - 2" unit="Организация">ТГУ им. Г.Р. Державина</param>
-<param name="Образование - 2" unit="Дата">2022</param>
-<param name="Образование - 2" unit="Название">Магистр дефектологии</param>
-<param name="Образование - 2" unit="Специальность">Дефектолог</param>
-<param name="Место работы - 1" unit="Организация">Кабинет нейропсихологии Алены Костыриной</param>
-<param name="Место работы - 1" unit="Дата">2023-н.в.</param>
-</set>
-  </offers>
-</offer>
-</shop>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2021-07-17 12:10">
+    <shop>
+        <name>Работает</name>
+        <company>Кабинет нейропсихологии Алены Костыриной</company>
+        <url>https://alenakopsy.ru/</url>
+        <email>ivlieva.alena@inbox.ru</email>
+        <picture>https://static.tildacdn.com/tild6430-6235-4131-b361-303463613935/660-6606850_5555h.png</picture>
+        <description>Ждет Вас на прием</description>
+        <currencies>
+          <currency id="RUR" rate="1" />
+        </currencies>
+        <categories>
+            <category id="1">Врач</category>
+        </categories>
+
+        <sets>
+            <set id="neyropsiholog">
+                <name>Нейропсихолог</name>
+                <url>https://alenakopsy.ru/#rec452261573</url>
+            </set>
+        </sets>
+        <offers>
+            <!--
+                Оффер для врача - это связка "Врач"-"Клиника"-"Тип приема".
+                При наличии у врача нескольких офферов нужно предоставить каждый из них отдельно.
+                В таком случае URL разных офферов одного врача должны различаться незначащим cgi-параметром ?offer-id=...
+
+            -->
+            <!--group_id - уникальный идентификтаор врача. нужен при наличии разных URL у одного человека. Целое число, не более 9 знаков-->
+            <offer id="vrach111" group_id="94726"> 
+                <name>Костырина Алёна Вячеславовна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://napopravku.ru/tambov/doctor-profile/kostyrina-alena-viacheslavovna/</url><!--URL карточки врача. -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичная консультация</sales_notes>
+                <set-ids>neyropsiholog</set-ids> <!--специальности через запятую-->
+                <picture>https://prodoctorov.ru/media/photo/tambov/doctorimage/1167220/2821576-1167220-kostyrina_square.jpg</picture>
+                <description>В 2018 году закончила ТГУ им. Г.Р. Державина и получила специальность «Клинический психолог» со специализацией «Нейропсихологическая реабилитация и коррекционно-развивающее обучение».
+
+Магистр с отличием в области «Специальное (дефектологическое) образование».
+
+С октября 2016 года и по сегодняшний день работаю с детьми с ограниченными возможностями здоровья и детьми без каких-либо патологий развития.
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Костырина</param>
+                <param name="Имя">Алёна</param>
+                <param name="Отчество">Вячеславовна</param>
+                <param name="Годы опыта">8</param>
+                <param name="Начало карьеры">2016-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Тамбов</param>
+                <param name="Взрослый врач">false</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">true</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://napopravku.ru/tambov/doctor-profile/kostyrina-alena-viacheslavovna/</param>
+                <param name="Город клиники">г. Тамбов</param>
+                <param name="Адрес клиники">ул. Моршанское шоссе, д.14А, оф. 401</param>
+                <param name="Название клиники">Кабинет нейропсихологии Алены Костыриной</param>
+                <param name="Возможность записи">false</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(902)728-04-45</param> <!--Можно подменник аггрегатора-->
+            </offer>	
+        </offers>
+    </shop>
 </yml_catalog>
