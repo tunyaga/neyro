@@ -31,13 +31,13 @@
             <offer id="vrach111" group_id="94726"> 
                 <name>Костырина Алёна Вячеславовна</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
-                <url>https://napopravku.ru/tambov/doctor-profile/kostyrina-alena-viacheslavovna/</url><!--URL карточки врача. -->
+                <url>https://alenakopsy.ru/#rec452261573</url><!--URL карточки врача. -->
                 <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичная консультация</sales_notes>
                 <set-ids>neyropsiholog</set-ids> <!--специальности через запятую-->
-                <picture>https://prodoctorov.ru/media/photo/tambov/doctorimage/1167220/2821576-1167220-kostyrina_square.jpg</picture>
+                <picture>https://static.tildacdn.com/tild3230-3062-4839-a662-326665393465/0-1.jpg</picture>
                 <description>В 2018 году закончила ТГУ им. Г.Р. Державина и получила специальность «Клинический психолог» со специализацией «Нейропсихологическая реабилитация и коррекционно-развивающее обучение».
 
 Магистр с отличием в области «Специальное (дефектологическое) образование».
@@ -54,7 +54,7 @@
                 <param name="Город">г. Тамбов</param>
                 <param name="Взрослый врач">false</param> <!--Принимает взрослых, от 18 лет-->
                 <param name="Детский врач">true</param> <!--Принимает детей, до 18 лет-->
-                <param name="Ссылка на профиль врача">https://napopravku.ru/tambov/doctor-profile/kostyrina-alena-viacheslavovna/</param>
+                <param name="Ссылка на профиль врача">https://alenakopsy.ru/#rec452261573</param>
                 <param name="Город клиники">г. Тамбов</param>
                 <param name="Адрес клиники">ул. Моршанское шоссе, д.14А, оф. 401</param>
                 <param name="Название клиники">Кабинет нейропсихологии Алены Костыриной</param>
